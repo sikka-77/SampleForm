@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -52,7 +52,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:id="@+id/getUserEmail"
             android:padding="13dp"
             android:background="@drawable/edit_text_background"
             android:layout_margin="15dp"
@@ -62,9 +62,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="13dp"
+            android:id="@+id/getUserPassword"
             android:layout_margin="15dp"
             android:background="@drawable/edit_text_background"
             android:hint="Password"
+            android:inputType="textPassword"
             />
 
 
@@ -92,4 +94,4 @@
 
     </LinearLayout>
 
-</RelativeLayout>
+</ScrollView>

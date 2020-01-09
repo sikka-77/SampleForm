@@ -64,23 +64,17 @@
         android:background="@drawable/edit_text_background"
         android:layout_margin="15dp"
         android:hint="Mobile"
+        android:id="@+id/getMobileEditText"
         android:inputType="number"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="13dp"
+        android:id="@+id/getLocationEditText"
         android:background="@drawable/edit_text_background"
         android:layout_margin="15dp"
         android:hint="Loaction"
         android:inputType="text"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="13dp"
-        android:background="@drawable/edit_text_background"
-        android:layout_margin="15dp"
-        android:hint="Loaction"
-        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -88,12 +82,13 @@
         android:background="@drawable/edit_text_background"
         android:layout_margin="15dp"
         android:hint="Password"
-        android:inputType="text"/>
+        android:id="@+id/getPasswordEditText"
+        android:inputType="textPassword"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/Signinside"
+            android:id="@+id/SignUpButton"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
             android:background="@drawable/layout_background"
