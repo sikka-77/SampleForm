@@ -17,6 +17,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mRegisterText=(TextView)findViewById(R.id.Register);
+
+        //setting the click listener
+
         mRegisterText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
